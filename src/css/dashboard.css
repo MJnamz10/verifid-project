@@ -1,0 +1,188 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden; /* hides scrolling */
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* center vertically */
+  align-items: center; /* center horizontally */
+  background: linear-gradient(to bottom, #eff6ff, #eef2ff, #faf5ff);
+}
+.logo {
+  width: 185px;
+  height: auto;
+  position: absolute;
+  bottom: auto;
+  left: 50px;
+  top: 15px;
+}
+.school {
+  font-family: "Arimo", sans-serif;
+  font-weight: 700;
+  color: #4a5565;
+  position: absolute;
+  bottom: auto;
+  left: 80px;
+  top: 80px;
+  font-size: 16px;
+}
+.icon1,
+.icon2,
+.icon3 {
+  width: 15px;
+  height: auto;
+  margin-right: 5px; /* use spacing, not position */
+  position: relative;
+  bottom: 1px;
+}
+.container1 {
+  display: flex;
+  width: 1360px;
+  border-radius: 50px;
+  text-align: center;
+  justify-content: center;
+  background-color: #efefef;
+  padding: 8px;
+  height: 20px; /* increase height */
+  position: absolute;
+  top: 150px;
+  font-family: "Arimo", sans-serif;
+  left: 75px;
+}
+.item,
+.active-item {
+  width: 860px;
+  height: 25px; /* SAME HEIGHT */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  font-size: 14px;
+  cursor: pointer;
+  position: relative;
+  bottom: 2px;
+}
+
+.active-item {
+  background-color: white;
+  position: relative;
+  bottom: 2px;
+}
+.dash-containers {
+  display: flex;
+  gap: 20px;
+  position: absolute; /* lets you move the whole row */
+  top: 200px; /* 👈 control vertical position */
+  left: 80px; /* 👈 control horizontal position */
+}
+
+.dash-item {
+  width: 300px;
+  height: 130px;
+  background-color: white;
+  border-radius: 14px;
+  padding: 8px 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  font-family: "Arimo", sans-serif;
+  font-size: 16px;
+  color: #6b7280;
+  position: relative;
+  bottom: 50px;
+  line-height: 20px;
+  padding-left: 20px;
+}
+
+.icons {
+  width: 40px;
+  height: auto;
+  position: relative;
+  left: 250px;
+  bottom: 5px;
+}
+.dash-containers2 {
+  display: flex;
+  flex-direction: column;
+  width: 1370px;
+  height: 250px; /* will be changed to dynamic later since number of data is not fixed */
+  background-color: white;
+  border-radius: 14px;
+  position: absolute;
+  top: 690px;
+  left: 80px;
+}
+.dash-item2 {
+  width: 1300px;
+  height: 50px;
+  background-color: #f3f4f6;
+  border-radius: 14px;
+  padding: 8px 14px;
+  justify-content: center;
+  margin-bottom: 10px;
+  position: relative;
+  top: 90px;
+  left: 20px;
+}
+.title2 {
+  font-family: "Arimo", sans-serif;
+  font-size: 14px;
+  color: #4A5565;
+  position: relative;
+  bottom: 15px;
+  line-height: 30px;
+  left: 50px;
+}
+
+.container6 {
+  display: flex;
+  width: 1370px;
+  height: 320px; /* will be changed to dynamic later since number of data is not fixed */
+  background-color: white;
+  border-radius: 14px;
+  position: absolute;
+  top: 360px;
+  left: 80px;
+}
+.txt1 {
+  font-family: "Arimo", sans-serif;
+  font-size: 14px;
+  color: black;
+  position: absolute;
+  bottom: 210px;
+  left: 105px;
+  line-height: 30px;
+}
+.txt2 { 
+  font-family: "Arimo", sans-serif;
+  font-size: 14px;
+  color: #717182;
+  position: absolute;
+  bottom: 190px;
+  left: 105px;
+  line-height: 30px;
+}
+.icon4{
+  width: 30px;
+  height: auto;
+  position: absolute;
+  top: 105px;
+  left: 10px;
+}
+.icon5{
+  width: 30px;
+  height: auto;
+  position: absolute;
+  top: 155px;
+  left: 10px;
+}
+
